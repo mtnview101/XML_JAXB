@@ -21,12 +21,12 @@ EmployeesType o = (EmployeesType) JAXBContext.newInstance(EmployeesType.class).c
 //            JAXBContext jaxbC = JAXBContext.newInstance(EmployeesType.class);
 //            Unmarshaller jaxbU = jaxbC.createUnmarshaller();
 //            EmployeesType o = (EmployeesType) jaxbU.unmarshal(sr);
-              System.out.println( "Employee ID: " +   o.employee.id + "; "
-                                + "First name: " +   o.employee.firstname + "; "
-                                + "Last Name: " +    o.employee.lastname + "; "
-                                + "Title: " +         o.employee.title + "; "
-                                + "Hire date: " +    o.employee.hiredate + "; "
-                                + "Phone: " +         o.employee.phone + "; "
+              System.out.println( "Employee ID: " +   o.employee.id + "; \r\n"
+                                + "First name: " +   o.employee.firstname + "; \r\n"
+                                + "Last Name: " +    o.employee.lastname + "; \r\n"
+                                + "Title: " +         o.employee.title + "; \r\n"
+                                + "Hire date: " +    o.employee.hiredate + "; \r\n"
+                                + "Phone: " +         o.employee.phone + "; \r\n"
                                 + "Email: " +         o.employee.email
                            );
 }}

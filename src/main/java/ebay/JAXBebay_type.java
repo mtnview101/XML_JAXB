@@ -1,4 +1,4 @@
-package core;
+package ebay;
 import javax.xml.bind.annotation.*;
 @XmlRootElement(name = "kadu-response")
 public class JAXBebay_type {

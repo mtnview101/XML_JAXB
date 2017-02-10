@@ -14,7 +14,7 @@ public class EmployeesList {
               DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
               DocumentBuilder db = dbf.newDocumentBuilder();
               Document doc = db.parse(xml);
-              doc.getDocumentElement().normalize(); File file = new File("employees.xml");
+              doc.getDocumentElement().normalize(); //File file = new File("employees.xml");
               
 EmployeesListType o = (EmployeesListType) JAXBContext.newInstance(EmployeesListType.class).createUnmarshaller().unmarshal(doc);
        

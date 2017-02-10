@@ -1,4 +1,4 @@
-package core;
+package first;
 import javax.xml.bind.*; import java.io.File;
 
 public class JAXBCode { public static void main(String[] args) throws Exception {

@@ -1,4 +1,4 @@
-package core;
+package first;
 
 import javax.xml.bind.annotation.*;
 @XmlRootElement(name = "employees")
